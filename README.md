@@ -32,7 +32,7 @@ Si usa p5jsEditor online solo tendrá que subir los archivos para ver
 la corrida.
 
 
-Cuando de habla de optimizar nos referimos al numero de dibujos,he
+Cuando se habla de optimizar nos referimos al numero de dibujos,he
 aquí la razon de por que generamos las collisiones mediante cubos
 y no con puntos, lineas o planos.
 
