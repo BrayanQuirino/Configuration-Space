@@ -1,0 +1,20 @@
+class moreSimple{
+    constructor(v1,v2,v3,v4){
+        this.v1=v1;
+        this.v2=v2;
+        this.v3=v3;
+        this.v4=v4;
+    }
+    dibujar(){
+        stroke(0);
+        fill(255,0,0,100);
+        quad(mapSize(this.v1.x),this.v1.y,mapSize(this.v1.z),
+        mapSize(this.v3.x),this.v3.y,mapSize(this.v3.z),
+        mapSize(this.v4.x),this.v4.y,mapSize(this.v4.z),
+        mapSize(this.v2.x),this.v2.y,mapSize(this.v2.z));
+        quad(mapSize(this.v1.x),this.v1.y-180,mapSize(this.v1.z),
+        mapSize(this.v3.x),this.v3.y-180,mapSize(this.v3.z),
+        mapSize(this.v4.x),this.v4.y-180,mapSize(this.v4.z),
+        mapSize(this.v2.x),this.v2.y-180,mapSize(this.v2.z));
+    }
+}

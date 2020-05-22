@@ -1,0 +1,20 @@
+class Anaquel{
+    constructor(w,h,x,y,c,name,textSize,textP,r,grid){
+        this.w=w;
+        this.h=h;
+        this.x=x;
+        this.y=y;
+        this.c=c;
+        this.grid=grid;
+        this.r=r;
+        this.name=name;
+        this.textSize=textSize;
+        this.textP=textP;
+        this.lines=gratingA(this.x,this.y,this.w,this.h,grid);
+        walls=walls.concat(this.lines);
+    }
+    dibujar(){
+        fill(this.c);
+        rect(this.x,this.y,this.w,this.h);
+    }
+}
