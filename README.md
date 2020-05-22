@@ -4,15 +4,25 @@ Make a configuration space through a work space that has 8 shelfs. The map size 
 "Orden de ejecución" de los archivos:
 
 CShtml.txt
+
 p5.min.js ¡Innecesario en el editor oline! /*Funciones de P5*/
+
 indexjs.txt
+
 anaquel.js
+
 robotjs.txt
+
 Linejs.txt
+
 simpleLinejs.txt
+
 boxesjs.text
+
 realboxjs.text
+
 randomTree.js
+
 completeLinesjs.text ¡Intento de optimizar el dibujado(fallido)!
 
 
